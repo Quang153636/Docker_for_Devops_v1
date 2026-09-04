@@ -4,7 +4,7 @@ FROM nginx:latest
 
 # Identify the maintainer of an image
 LABEL version="0.0.1"
-LABEL maitainer="anshulc55@gmail.com"
+LABEL maitainer="quang153636@gmail.com"
 
 # Updateing the work DIR
 WORKDIR /usr/share/nginx/html
