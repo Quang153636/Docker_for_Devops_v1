@@ -11,6 +11,8 @@ ENV APP_NAME=${APP_NAME}
 # Set environment variable
 ENV ENVIRONMENT=development
 
+ENV NODE_ENV=hello
+
 COPY . .
 
 CMD ["node", "app.js"]
