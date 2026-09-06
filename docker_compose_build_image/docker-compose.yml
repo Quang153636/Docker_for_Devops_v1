@@ -10,7 +10,7 @@ services:
         - APP_VERSION=2.0
     environment:
       - DEBUG=true
-    image: hoangquang153636/python_web:2.0
+    image: hoangquang153636/python_web:2.1
 
   node_service:
     build:
@@ -21,4 +21,4 @@ services:
         - APP_NAME=my-nodejs-app
     environment:
       - NODE_ENV=hello
-    image: hoangquang153636/node_web:2.0
+    image: hoangquang153636/node_web:2.1
