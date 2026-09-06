@@ -36,9 +36,7 @@ services:
     networks:
       - wordpress_network
 
-volumes:
-  mysql_data:
-  wordpress_data:
+
 
 networks:
   wordpress_network:
