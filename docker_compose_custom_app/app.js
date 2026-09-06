@@ -16,7 +16,7 @@ db.once('open', () => {
 
 // Docker Compose up
 const startContainers = () => {
-  exec('docker-compose up -d', (error, stdout, stderr) => {
+  exec('docker compose up -d', (error, stdout, stderr) => {
     if (error) {
       console.error(`Error starting containers: ${error.message}`);
       return;
